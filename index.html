@@ -1,0 +1,585 @@
+<!-- ============================================================
+     Shahriar GIS School — Courses Page
+     Paste this whole block into the WordPress "Code" / Custom HTML
+     editor (Gutenberg: Custom HTML block, or Elementor: HTML widget).
+     No external images are used — everything is CSS/text only.
+============================================================ -->
+<style>
+  .sgs-wrap {
+    --sgs-navy:#0b2e4e;
+    --sgs-blue:#1f6fb2;
+    --sgs-green:#1c8a5a;
+    --sgs-gold:#d99a1b;
+    --sgs-bg:#f6f9fb;
+    --sgs-card:#ffffff;
+    --sgs-border:#e1e8ef;
+    --sgs-text:#22313f;
+    --sgs-muted:#5b6b7a;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--sgs-text);
+    background:var(--sgs-bg);
+    padding:32px 16px 56px;
+  }
+  .sgs-wrap *{box-sizing:border-box;}
+  .sgs-header{text-align:center;max-width:760px;margin:0 auto 28px;}
+  .sgs-header h1{font-size:clamp(24px,4vw,34px);margin:0 0 8px;color:var(--sgs-navy);text-decoration:underline;text-underline-offset:6px;}
+  .sgs-header p{color:var(--sgs-muted);font-size:15px;margin:0;}
+  .sgs-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:900px;margin:0 auto 40px;}
+  .sgs-nav-link{background:var(--sgs-card);border:1px solid var(--sgs-border);color:var(--sgs-blue);
+    padding:8px 16px;border-radius:999px;font-size:14px;font-weight:600;text-decoration:none;transition:all .15s ease;}
+  .sgs-nav-link:hover{background:var(--sgs-blue);color:#fff;border-color:var(--sgs-blue);}
+  .sgs-section-anchor{position:relative;top:-90px;}
+  .sgs-section{max-width:1180px;margin:0 auto 48px;}
+  .sgs-section-title{font-size:22px;text-align:center;color:var(--sgs-navy);text-decoration:underline;
+    text-underline-offset:6px;font-style:italic;margin:0 0 22px;}
+  .sgs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  @media (max-width:980px){.sgs-grid{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:640px){.sgs-grid{grid-template-columns:1fr;} .sgs-section-anchor{top:-70px;}}
+  .sgs-card{background:var(--sgs-card);border:1px solid var(--sgs-border);border-radius:12px;
+    padding:22px 20px 20px;display:flex;flex-direction:column;box-shadow:0 1px 3px rgba(11,46,78,.06);}
+  .sgs-card-title{font-size:16px;line-height:1.35;color:var(--sgs-navy);margin:0 0 14px;min-height:44px;}
+  .sgs-feats{list-style:none;margin:0 0 16px;padding:0;flex:1;}
+  .sgs-feats li{position:relative;padding-left:24px;margin-bottom:8px;font-size:13.5px;color:var(--sgs-text);}
+  .sgs-feats li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--sgs-green);font-weight:700;}
+  .sgs-price{text-align:center;margin:6px 0 14px;font-size:17px;}
+  .sgs-price-new{color:var(--sgs-green);font-weight:800;}
+  .sgs-price-old{color:#9aa7b2;text-decoration:line-through;margin:0 6px;font-weight:500;}
+  .sgs-price-off{color:var(--sgs-gold);font-weight:700;font-size:14px;}
+  .sgs-btn{display:block;text-align:center;background:var(--sgs-blue);color:#fff !important;
+    font-weight:700;text-decoration:none;padding:11px 18px;border-radius:8px;transition:background .15s ease;}
+  .sgs-btn:hover{background:var(--sgs-navy);}
+</style>
+
+<div class="sgs-wrap">
+
+  <div class="sgs-header">
+    <h1>Our GIS &amp; Web GIS Courses</h1>
+    <p>Desktop GIS, Web GIS, freelancing tracks and combo courses — all with limited-time discount coupons.</p>
+  </div>
+
+  <nav class="sgs-nav">
+      <a href="#top-selling" class="sgs-nav-link">Our Top-Selling Courses</a>
+      <a href="#desktopgis" class="sgs-nav-link">Desktop GIS</a>
+      <a href="#webgis" class="sgs-nav-link">Web GIS</a>
+      <a href="#earningbylearninggis" class="sgs-nav-link">Earning by Learning GIS</a>
+      <a href="#2in1course" class="sgs-nav-link">2-in-1 Course</a>
+  </nav>
+
+  <div id="top-selling" class="sgs-section-anchor"></div>
+  <section class="sgs-section">
+    <h3 class="sgs-section-title">Our Top-Selling Courses</h3>
+    <div class="sgs-grid">
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">GIS Mega Course - ArcGIS vs ArcGIS Pro, Python &amp; QGIS</h4>
+        <ul class="sgs-feats">
+          <li>3,500+ Students, 4.3 rating</li>
+          <li>206 Lectures, 22 Hours</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>12 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>81 Downloadable Resource Files</li>
+          <li>7 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$15</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(93% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgis-vs-arcgis-pro-1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcPy for ArcMap Level 1: Python Programming for ArcGIS</h4>
+        <ul class="sgs-feats">
+          <li>1,800+ Students, 4.5 rating</li>
+          <li>58 Lectures, 7.5 Hours</li>
+          <li>Python Basic to Advanced and ArcPy</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>5 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcpyforarcmap1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcPy for ArcMap Level 2: 50 Scripts of ArcPy for GIS Work</h4>
+        <ul class="sgs-feats">
+          <li>4.3 rating</li>
+          <li>63 Lectures, 7.5 Hours</li>
+          <li>50 ArcPy Scripts of GIS Work</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>15 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>13 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcpyforarcmap2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Pro Level 1: GIS, Remote Sensing &amp; Python</h4>
+        <ul class="sgs-feats">
+          <li>2,900+ Students, 4.2 rating</li>
+          <li>69 Lectures, 6 Hours</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>7 Downloadable Resource Files</li>
+          <li>2 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgis-pro-for-smart-gis/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Mega Course: GIS, ArcMap, ArcScene, ArcGlobe &amp; Python</h4>
+        <ul class="sgs-feats">
+          <li>5,100+ Students, 4.6 rating</li>
+          <li>67 Lectures, 6 Hours</li>
+          <li>ArcMap + ArcGlobe + ArcScene + ArcCatalog</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>13 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>33 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$16</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(93% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgisbeginnerguide/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Level 2: Advanced Analysis, Editing and Mapping</h4>
+        <ul class="sgs-feats">
+          <li>4.3 rating</li>
+          <li>60 Lectures, 5.5 Hours</li>
+          <li>Advanced Analysis, Editing &amp; Mapping</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>37 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgislevel2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="desktopgis" class="sgs-section-anchor"></div>
+  <section class="sgs-section">
+    <h3 class="sgs-section-title">Desktop GIS</h3>
+    <div class="sgs-grid">
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcPy for ArcMap Level 1: Python Programming for ArcGIS</h4>
+        <ul class="sgs-feats">
+          <li>82 Lectures</li>
+          <li>Python Basic to Advanced and ArcPy</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>5 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcpyforarcmap1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcPy for ArcMap Level 2: 50 Scripts of ArcPy for GIS Work [New]</h4>
+        <ul class="sgs-feats">
+          <li>63 Lectures</li>
+          <li>50 ArcPy Scripts of GIS Work</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>15 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>13 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcpyforarcmap2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">Basic of Desktop GIS &amp; Web GIS: All Types of GIS Software</h4>
+        <ul class="sgs-feats">
+          <li>36 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>4 Downloadable Resource Files</li>
+          <li>4 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/gisandwebgis/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Mega Course: GIS, ArcMap, ArcScene, ArcGlobe &amp; Python</h4>
+        <ul class="sgs-feats">
+          <li>67 Lectures</li>
+          <li>ArcMap + ArcGlobe + ArcScene + ArcCatalog</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>13 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>33 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$16</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(93% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgisbeginnerguide/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Level 2: Advanced Analysis, Editing and Mapping</h4>
+        <ul class="sgs-feats">
+          <li>60 Lectures</li>
+          <li>Advanced Analysis, Editing &amp; Mapping</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>37 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgislevel2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Pro Level 1: GIS, Remote Sensing &amp; Python</h4>
+        <ul class="sgs-feats">
+          <li>69 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>7 Downloadable Resource Files</li>
+          <li>2 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgis-pro-for-smart-gis/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">QGIS Level 1: Fundamental of QGIS For Smart GIS Work</h4>
+        <ul class="sgs-feats">
+          <li>50 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>13 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>27 Downloadable Resource Files</li>
+          <li>2 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$14</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(93% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/gisqgislevel1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">QGIS Level 2: Advanced Editing, Styling, Diagram &amp; Layout</h4>
+        <ul class="sgs-feats">
+          <li>50 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>12 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>10 Downloadable Resource Files</li>
+          <li>1 Article</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/gisandqgis2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">SuperMap iDesktop 10i Level 1: SuperMap for Smart GIS Work</h4>
+        <ul class="sgs-feats">
+          <li>51 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>23 Downloadable Resource Files</li>
+          <li>15 Quiz Test</li>
+          <li>1 Article</li>
+          <li>1 Final Project</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/supermap1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="webgis" class="sgs-section-anchor"></div>
+  <section class="sgs-section">
+    <h3 class="sgs-section-title">Web GIS</h3>
+    <div class="sgs-grid">
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">Fundamental of Web GIS: All Types of Web GIS Interfaces</h4>
+        <ul class="sgs-feats">
+          <li>40 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>8 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>4 Downloadable Resource Files</li>
+          <li>All Open Source Web GIS Platforms Basic</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/webgisgeoserver/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">GeoServer Level 1: Web GIS &amp; Server Management</h4>
+        <ul class="sgs-feats">
+          <li>51 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>10 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>8 Downloadable Resource Files</li>
+          <li>3 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/webgisandgeoserverwithservermanagement/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Online Level 1: Smart Web GIS Project Creation</h4>
+        <ul class="sgs-feats">
+          <li>55 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>12 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>4 Downloadable Resource Files</li>
+          <li>1 Article</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgis-online-for-dynamic-web-gis-applications/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">OpenStreetMap: QGIS with OSM Plugin, OSM Map Download &amp; Edit</h4>
+        <ul class="sgs-feats">
+          <li>24 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>5 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>OpenStreetMap Download of Any Area</li>
+          <li>OSM to Shapefile in QGIS Interface</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/openstreetmap/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="earningbylearninggis" class="sgs-section-anchor"></div>
+  <section class="sgs-section">
+    <h3 class="sgs-section-title">Earning by Learning GIS</h3>
+    <div class="sgs-grid">
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">Freelancing with GIS Level 1: Earn from Home</h4>
+        <ul class="sgs-feats">
+          <li>40 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>8 Quiz Tests</li>
+          <li>1 Final Project</li>
+          <li>3 Downloadable Resource Files</li>
+          <li>6 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/freelancingwithgis1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="2in1course" class="sgs-section-anchor"></div>
+  <section class="sgs-section">
+    <h3 class="sgs-section-title">2-in-1 Course</h3>
+    <div class="sgs-grid">
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">GIS Mega Course - ArcGIS vs ArcGIS Pro, Python &amp; QGIS</h4>
+        <ul class="sgs-feats">
+          <li>3,500+ Students, 4.3 rating</li>
+          <li>206 Lectures, 22 Hours</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>12 Quiz Test</li>
+          <li>1 Final Project</li>
+          <li>81 Downloadable Resource Files</li>
+          <li>7 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$15</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(93% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgis-vs-arcgis-pro-1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS vs ArcGIS Pro Level 2: Map Styling, Editing &amp; Web GIS</h4>
+        <ul class="sgs-feats">
+          <li>40 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>Advanced Map Digitizing Tricks</li>
+          <li>8 Quiz Tests</li>
+          <li>1 Final Project</li>
+          <li>4 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgisvsarcgispro2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Pro vs QGIS Level 1: Fundamental</h4>
+        <ul class="sgs-feats">
+          <li>42 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>9 Quiz Tests</li>
+          <li>1 Final Project</li>
+          <li>15 Downloadable Resource Files</li>
+          <li>3 Articles</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgisproqgis1/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Pro vs QGIS Level 2: Map Editing, Database &amp; Web GIS</h4>
+        <ul class="sgs-feats">
+          <li>42 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>11 Quiz Tests</li>
+          <li>1 Final Project</li>
+          <li>13 Downloadable Resource Files</li>
+          <li>1 Article</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgisproqgis2/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+      <div class="sgs-card">
+        <h4 class="sgs-card-title">ArcGIS Pro vs QGIS Level 3: Advanced Map Styling &amp; 2.5D Map</h4>
+        <ul class="sgs-feats">
+          <li>43 Lectures</li>
+          <li>International Certificate of UDEMY</li>
+          <li>Lifetime Access in the Course</li>
+          <li>2.5D Map Creation with Analysis</li>
+          <li>7 Quiz Tests</li>
+          <li>1 Final Project</li>
+          <li>6 Downloadable Resource Files</li>
+          <li>Instructor: Shahriar Sir</li>
+        </ul>
+        <div class="sgs-price">
+          <span class="sgs-price-new">$13</span>
+          <span class="sgs-price-old">$200</span>
+          <span class="sgs-price-off">(94% Off)</span>
+        </div>
+        <a class="sgs-btn" href="https://www.udemy.com/course/arcgisproqgis3/?couponCode=202606" target="_blank" rel="noopener">Course Detail</a>
+      </div>
+    </div>
+  </section>
+
+</div>
